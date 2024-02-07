@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: cursive;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a, label {
+    display: inline-block;
+}
+.box {
+    text-align: center;
+    padding: 30px;
+}
+.box input {
+    font-size: 30px;
+    padding: 10px 15px;
+}
+.search{
+    outline: none;
+    background-color: transparent;
+    font-family: cursive;
+    border: none;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 1.25%;
+    padding: 15px;
+}
+.pokbox {
+    width: 19%;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 10px;
+    position: relative;
+    background-color: aqua;
+}
+.num {
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    right: 15px;
+    top: 10px;
+    color: orange;
+}
+.title {
+    margin-bottom: 15px;
+}
+.list {
+    padding-left: 20px;
+    line-height: 1.6;
+}
